@@ -42,8 +42,8 @@ const iconMap: Record<string, JSX.Element> = {
 };
 
 export const Skills: React.FC = () => {
-  const paths = "../sounds/hover.mp3"
-  const [playHover] = useSound(paths, { volume: 0.2 });
+  const paths = "/sounds/click1.wav"
+  const [playClick] = useSound(paths, { volume: 0.2 });
 
   return (
     <section className="py-20 px-4 bg-gray-50 dark:bg-gray-900/50">
@@ -65,7 +65,7 @@ export const Skills: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ scale: 1.02 }}
-              onHoverStart={() => playHover()}
+              onClick={() => playClick()}
               className="p-6 rounded-xl bg-white dark:bg-gray-800 shadow-xl hover:shadow-2xl transition-all"
             >
               <h3 className="text-xl font-bold mb-4 dark:text-white">{category.name}</h3>

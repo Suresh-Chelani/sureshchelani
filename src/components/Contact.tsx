@@ -5,7 +5,7 @@ import useSound from 'use-sound';
 import personal from '../data/personal.json';
 
 export const Contact: React.FC = () => {
-  const [playClick] = useSound('..//..//sounds/click1.wav', { volume: 0.5 });
+  const [playClick] = useSound('/sounds/click1.wav', { volume: 0.5 });
 
   return (
     <section id="contact" className="py-20 px-4">

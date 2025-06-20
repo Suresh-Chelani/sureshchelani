@@ -21,7 +21,7 @@ const platformIcons = {
 };
 
 export const CodingProfiles: React.FC = () => {
-  const [playHover] = useSound('/sounds/hover.mp3', { volume: 0.2 });
+  const [playClick] = useSound('/sounds/click1.wav', { volume: 0.2 });
 
   return (
     <section id="coding" className="py-20 px-4 dark:bg-gray-900">
@@ -46,7 +46,7 @@ export const CodingProfiles: React.FC = () => {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ scale: 1.02 }}
-              onHoverStart={() => playHover()}
+              onClick={() => playClick()}
               className="p-6 block rounded-xl bg-white dark:bg-gray-800 shadow-xl hover:shadow-2xl transition-all"
             >
               <div className="flex justify-center items-center gap-2 mb-4">

@@ -13,7 +13,7 @@ interface ExperienceItem {
 }
 
 export const Experience: React.FC = () => {
-  const [playHover] = useSound('/sounds/hover.mp3', { volume: 0.2 });
+  const [playClick] = useSound('/sounds/click1.wav', { volume: 0.2 });
 
   return (
     <section id = "experience" className="py-20 px-4 bg-gray-50 dark:bg-gray-900/50">
@@ -35,7 +35,7 @@ export const Experience: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               whileHover={{ scale: 1.01 }}
-              onHoverStart={() => playHover()}
+              onClick={() => playClick()}
               className="p-6 rounded-xl bg-white dark:bg-gray-800 shadow-xl hover:shadow-2xl transition-all"
             >
               <div className="flex flex-wrap gap-4 items-start justify-between mb-4">

@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "items": ["C++", "JavaScript", "Python", "C"]
+    },
+    {
+      "name": "Frontend Development",
+      "items": ["React.js", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
+    },
+    {
+      "name": "Backend Development",
+      "items": ["Node.js", "Express.js", "MongoDB"]
+    },
+    {
+      "name": "Tools & Technologies",
+      "items": ["Git", "GitHub", "VS Code"]
+    },
+    {
+      "name": "Core Skills",
+      "items": ["Data Structures", "Algorithms", "Problem Solving"]
+    }
+  ]
+} 

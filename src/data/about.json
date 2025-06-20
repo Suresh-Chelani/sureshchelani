@@ -1,0 +1,24 @@
+{
+  "aboutText": [
+    "I'm a passionate Full Stack Developer and Competitive Programmer, currently pursuing B.Tech in Computer Science at The ICFAI University, Jaipur. With a strong foundation in algorithms and problem-solving, I strive to create efficient and scalable solutions.",
+    "My journey in competitive programming has led me to achieve significant rankings on platforms like LeetCode and GeeksforGeeks, while my development projects showcase my ability to build real-world applications."
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "items": ["C++", "JavaScript", "Python", "C"]
+    },
+    {
+      "name": "Frontend",
+      "items": ["React.js", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
+    },
+    {
+      "name": "Backend",
+      "items": ["Node.js", "Express.js", "MongoDB"]
+    },
+    {
+      "name": "Core",
+      "items": ["Data Structures", "Algorithms", "Problem Solving"]
+    }
+  ]
+} 

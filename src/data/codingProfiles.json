@@ -10,7 +10,7 @@
           "Global Rank 3301/36,727 in Biweekly Contest 138"
         ],
         "color": "from-yellow-400 to-orange-500",
-        "icon":"../../public/images/leetcode.png"
+        "icon":"../../images/leetcode.png"
       },
       {
         "platform": "GeeksforGeeks",
@@ -22,7 +22,7 @@
           "Active community contributor"
         ],
         "color": "from-green-400 to-green-600",
-        "icon":"../../public/images/gfg.png"
+        "icon":"../../images/gfg.png"
       },
       {
         "platform": "Coding Ninjas",
@@ -34,7 +34,7 @@
           "High performance rating"
         ],
         "color": "from-orange-400 to-red-500",
-        "icon":"../../public/images/codingninjas.png"
+        "icon":"../../images/codingninjas.png"
       }
     ]
   }

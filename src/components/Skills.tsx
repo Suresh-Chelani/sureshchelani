@@ -1,17 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import {
-  Braces,
-  FileCode2,
-  Database,
-  Globe,
-  Cpu,
-  Layout,
-  Server,
-  GitBranch,
-  Code,
-  Terminal
-} from 'lucide-react';
 import useSound from 'use-sound';
 import skillsData from '../data/skills.json';
 
@@ -20,25 +8,25 @@ interface SkillCategory {
   items: string[];
 }
 
-const iconMap: Record<string, JSX.Element> = {
-  'C++': <Braces className="w-5 h-5" />,
-  'JavaScript': <FileCode2 className="w-5 h-5" />,
-  'Python': <Terminal className="w-5 h-5" />,
-  'C': <Code className="w-5 h-5" />,
-  'React.js': <Layout className="w-5 h-5" />,
-  'HTML': <Globe className="w-5 h-5" />,
-  'CSS': <Layout className="w-5 h-5" />,
-  'Tailwind CSS': <Layout className="w-5 h-5" />,
-  'Bootstrap': <Layout className="w-5 h-5" />,
-  'Node.js': <Server className="w-5 h-5" />,
-  'Express.js': <Server className="w-5 h-5" />,
-  'MongoDB': <Database className="w-5 h-5" />,
-  'Git': <GitBranch className="w-5 h-5" />,
-  'GitHub': <GitBranch className="w-5 h-5" />,
-  'VS Code': <Code className="w-5 h-5" />,
-  'Data Structures': <Cpu className="w-5 h-5" />,
-  'Algorithms': <Cpu className="w-5 h-5" />,
-  'Problem Solving': <Cpu className="w-5 h-5" />
+// Helper to map skill names to SVG/PNG paths
+const skillToSvg: Record<string, string> = {
+  'C++': '/svgs/cpp.svg',
+  'JavaScript': '/svgs/javascript.svg',
+  'Python': '/svgs/python.svg',
+  'C': '/svgs/c.svg',
+  'React.js': '/svgs/reactjs.svg',
+  'HTML': '/svgs/html.svg',
+  'CSS': '/svgs/css.svg',
+  'Tailwind CSS': '/svgs/tailwindcss.svg',
+  'Astro.js': '/svgs/astrojs.svg',
+  'Node.js': '/svgs/nodejs.svg',
+  'Express.js': '/svgs/expressjs.svg',
+  'MongoDB': '/svgs/mongodb.svg',
+  'Git': '/svgs/git.svg',
+  'GitHub': '/images/github.png', // PNG fallback
+  'VS Code': '/svgs/vscode.svg',
+  'Data Structures & Algorithms': '/images/datastructures.png', // PNG fallback
+  'Problem Solving': '/svgs/problemsolving.svg', // fallback SVG
 };
 
 export const Skills: React.FC = () => {
@@ -76,12 +64,22 @@ export const Skills: React.FC = () => {
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.3, delay: i * 0.1 }}
-                    className="flex items-center gap-2"
+                    className="flex items-center justify-center"
                   >
-                    <div className="p-2 rounded-lg bg-gradient-to-r from-cyan-500/10 to-purple-500/10 text-cyan-700 dark:text-cyan-300">
-                      {iconMap[skill]}
+                    <div className="relative flex items-center justify-center group">
+                      <div className="p-2 rounded-lg bg-white/80 dark:bg-dark flex items-center justify-center">
+                        <img
+                          src={skillToSvg[skill] || '/svgs/astrojs.svg'}
+                          alt={skill}
+                          className="w-20 h-20 object-contain drop-shadow-lg hover:scale-110 transition-transform duration-300"
+                          draggable="false"
+                        />
+                      </div>
+                      {/* Tooltip */}
+                      <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 rounded bg-gray-800 text-white dark:bg-white dark:text-black text-xs opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10 whitespace-nowrap shadow-lg">
+                        {skill}
+                      </span>
                     </div>
-                    <span className="text-gray-700 dark:text-gray-300">{skill}</span>
                   </motion.div>
                 ))}
               </div>

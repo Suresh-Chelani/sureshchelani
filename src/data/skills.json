@@ -6,7 +6,7 @@
     },
     {
       "name": "Frontend Development",
-      "items": ["React.js", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
+      "items": ["React.js", "HTML", "CSS", "Tailwind CSS", "Astro.js"]
     },
     {
       "name": "Backend Development",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Core Skills",
-      "items": ["Data Structures", "Algorithms", "Problem Solving"]
+      "items": ["Data Structures & Algorithms", "Problem Solving"]
     }
   ]
 } 

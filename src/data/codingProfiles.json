@@ -1,0 +1,41 @@
+{
+    "profiles": [
+      {
+        "platform": "LeetCode",
+        "link": "https://leetcode.com/u/suresh_86/",
+        "stats": "Top 2.55% - Rating 2004 (Knight)",
+        "solved": "990+ problems solved",
+        "achievements": [
+          "Global Rank 2594/35,709 in Weekly Contest 414",
+          "Global Rank 3301/36,727 in Biweekly Contest 138"
+        ],
+        "color": "from-yellow-400 to-orange-500",
+        "icon":"/images/leetcode.png"
+      },
+      {
+        "platform": "GeeksforGeeks",
+        "link": "https://www.geeksforgeeks.org/user/sureshcheynr0/",
+        "stats": "4 Star - Rating 1850+",
+        "solved": "600+ problems solved",
+        "achievements": [
+          "Consistent problem solver",
+          "Active community contributor"
+        ],
+        "color": "from-green-400 to-green-600",
+        "icon":"/images/gfg.png"
+      },
+      {
+        "platform": "Coding Ninjas",
+        "link": "https://www.naukri.com/code360/profile/NBITA",
+        "stats": "Specialist - Rating 2135",
+        "solved": "200+ problems solved",
+        "achievements": [
+          "Regular contest participant",
+          "High performance rating"
+        ],
+        "color": "from-orange-400 to-red-500",
+        "icon":"/images/codingninjas.png"
+      }
+    ]
+  }
+  

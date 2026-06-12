@@ -1,0 +1,27 @@
+{
+  "name": "Suresh Chelani",
+  "email": "sureshchelani004@gmail.com",
+  "phone": "+91 8302607949",
+  "location": "Jaipur, Rajasthan",
+  "social": {
+    "github": {
+      "link": "https://github.com/suresh-chelani",
+      "img": "/images/github.png"
+    },
+    "linkedin": {
+      "link": "https://www.linkedin.com/in/suresh-chelani-a34b6a248",
+      "img": "/images/linkedin.png"
+    },
+    "leetcode": {
+      "link": "https://leetcode.com/u/suresh_86",
+      "img": "/images/leetcode.png"
+    },
+    "instagram": {
+      "link": "https://www.instagram.com/mr_suresh_04",
+      "img": "/images/instagram.png"
+    }
+  },
+  "resume":"fff",
+  "footerOrder": ["github", "linkedin", "instagram"],
+  "copyright": "Suresh Chelani"
+} 

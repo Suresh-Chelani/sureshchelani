@@ -1,0 +1,17 @@
+{
+  "experiences": [
+    {
+      "title": "Full Stack Intern",
+      "company": "IIT Roorkee",
+      "location": "Roorkee, Uttarakhand",
+      "duration": "15 May 2024 - 30 June 2024",
+      "description": [
+        "Developed a comprehensive website for IIT Roorkee's Coda Lab, supporting the work of 15-20 lab members.",
+        "Admin panel with features for updating, deleting, adding, and editing website content, including functionality for creating and managing admin and sub-admin roles, reducing management time by 50%.",
+        "Main Website has various sections, such as News, Events, Research, Publications, individual pages, etc.",
+        "Developed a dedicated page for Professor showcasing achievements, publications, research projects, etc.",
+        "Technologies Used: React.js, Node.js, Express.js, MongoDB, Bootstrap, AWS, Vercel, Git, GitHub."
+      ]
+    }
+  ]
+} 

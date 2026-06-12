@@ -1,0 +1,18 @@
+{
+  "education": [
+    {
+      "institution": "THE ICFAI University",
+      "degree": "B.Tech - Computer Science and Engineering",
+      "duration": "2022 – 2026",
+      "location": "Jaipur, Rajasthan",
+      "grade": "CGPA - 9.74 (Till 4th Sem)"
+    },
+    {
+      "institution": "Jai Durga Sr. Sec. School",
+      "degree": "Science - Maths",
+      "duration": "2021 – 2022",
+      "location": "Jaipur, Rajasthan",
+      "grade": "12th - 86%"
+    }
+  ]
+} 

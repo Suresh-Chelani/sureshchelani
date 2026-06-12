@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "title": "Stock AI",
+      "description": "Developed a finance bot as a freelancing project to assist in predicting stock prices using historical data from the past 10 years, providing data-driven insights.",
+      "points": [
+        "Integrated data analysis techniques, interactive chatbot functionality and graphical visualization of stock trends by Chart.js.",
+        "Enabled dynamic stock price predictions, ensuring seamless interaction and usability.",
+        "Added notification functionality using the Toastify library."
+      ],
+      "tech": ["React.js", "Polygon API", "Chart.js", "Regression", "chatbot"],
+      "icon": "LineChart",
+      "date": "Nov 2024",
+      "links": {
+        "github": "#",
+        "live": "#"
+      }
+    },
+    {
+      "title": "NewsApp",
+      "description": "A fully functional News website that provides current news and articles to users.",
+      "points": [
+        "Integrated News API: Dynamically retrieved news data and articles using a News API.",
+        "Added search functionality to retrieve data based on user input.",
+        "Implemented sign-in and sign-up for 200+ users using Firebase Authentication."
+      ],
+      "tech": ["React.js", "Bootstrap", "Firebase"],
+      "icon": "Newspaper",
+      "date": "July 2024",
+      "links": {
+        "github": "#",
+        "live": "#"
+      }
+    },
+    {
+      "title": "Text Analyzer",
+      "description": "Text manipulation tool with multiple transformation features.",
+      "points": [
+        "Developed 5+ text transformation functions including converting text to uppercase/lowercase.",
+        "Added 3+ customizable theme options, including dark/light mode.",
+        "Implemented character-wise and word-wise text counting for detailed analysis."
+      ],
+      "tech": ["React.js", "Bootstrap"],
+      "icon": "Type",
+      "date": "May 2024",
+      "links": {
+        "github": "#",
+        "live": "#"
+      }
+    },
+    {
+      "title": "Netflix Clone",
+      "description": "A responsive Netflix clone with dynamic content loading.",
+      "points": [
+        "Developed a responsive UI with 2 language options.",
+        "Integrated TDMB API for dynamic movie data retrieval.",
+        "Implemented continuous updates through API refreshes."
+      ],
+      "tech": ["JavaScript", "TDMB API", "HTML", "CSS"],
+      "icon": "Monitor",
+      "date": "Feb 2024",
+      "links": {
+        "github": "#",
+        "live": "#"
+      }
+    }
+  ]
+} 
